@@ -1,7 +1,7 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import agriImg from '../assets/Agric Ecommerce.png';
 import schoolImg from '../assets/Screenshot (80).png';
-import ticketImg from '../assets/Screenshot (92).png';
+import twitterImg from '../assets/Screenshot (92).png';
 import './Projects.css';
 
 const projects = [
@@ -9,7 +9,7 @@ const projects = [
     img: agriImg,
     title: 'Agricultural E-Commerce Website',
     desc: 'A full-featured e-commerce platform connecting farmers and buyers. Includes product listings, cart functionality, secure checkout, and user authentication.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+    tags: ['Html',  'Css', 'Javascript', 'Bootstrap'],
     github: 'https://github.com/Ibk2222/ecommerce',
     live: 'https://ecommerce-tau-six-78.vercel.app/',
   },
@@ -22,10 +22,10 @@ const projects = [
     live: 'https://abc-schools.vercel.app/',
   },
   {
-    img: ticketImg,
+    img: twitterImg,
     title: 'Twitter App clone',
     desc: 'A modern social media app clone where users can post updates, follow other users, and interact with content. Includes real-time messaging and a responsive design.',
-    tags: ['React', 'Node.js', 'JavaScript', 'CSS'],
+    tags: ['HTML', 'Bootstrap', 'CSS'],
     github: 'https://github.com/Ibk2222/twitter',
     live: 'https://twitter-beta-seven.vercel.app/',
   },
